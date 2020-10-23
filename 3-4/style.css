@@ -1,0 +1,51 @@
+#wrapper { /* 共通の処理 */
+    width:1000px;
+}
+
+.header { 
+    height:120px;
+}
+
+.left {
+    float: left; 
+    width: 200px;
+    height:120px;
+    background-color: #add8e6;
+}
+
+.right-upper {
+    float: right; 
+    width: 800px;
+    height:60px;
+    background-color: #87ceed;
+    text-align: right
+}
+
+.right-lower {
+    float: right; 
+    width: 800px;
+    height:60px;
+    background-color: #00ffff;
+    text-align: right
+}
+
+.photo{
+    width: 200px;
+}
+.main{
+    padding-top: 10px;
+    padding-bottom: 10px;  
+}
+
+th{
+    background-color: #87ceeb;
+}
+
+td{
+    background-color: #e0ffff;
+}
+
+.footer{
+    height:60px;
+    background-color: #00ced1;
+}
