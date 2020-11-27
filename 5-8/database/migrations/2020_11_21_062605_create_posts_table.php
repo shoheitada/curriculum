@@ -17,9 +17,9 @@ class CreatePostsTable extends Migration
             $table->bigInteger('id');
             $table->bigInteger('user_id');
             $table->string('body',255);
-            $table->timestamps('created_at');
-            $table->timestamps('updated_at');
-            $table->timestamps('deleted_at');
+            $table->timestamp('created_at')->nullable();
+            $table->timestamp('updated_at')->nullable();
+            $table->timestamp('deleted_at')->nullable();
         });
     }
 
